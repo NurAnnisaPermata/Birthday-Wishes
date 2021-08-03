@@ -43,7 +43,6 @@ html{
 
 .image{
     width: 100%;
-    position: relative;
 }
 
 .image .gambar{
@@ -94,7 +93,6 @@ html{
 
     .image{
         width: 100%;
-        position: relative;
     }
     
     .image .gambar{
