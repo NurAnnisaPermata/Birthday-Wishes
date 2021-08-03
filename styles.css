@@ -78,10 +78,6 @@ html{
     .general{
         flex-direction: row;
     }
-
-    .container{
-        padding: 0px 50px;
-    }
     
     .T1{
         color: #DEB887;
@@ -106,7 +102,7 @@ html{
         width: 100%;
         object-fit: cover;
     }
-    
+
     .name{
         font-size: 35px;
     }
