@@ -1,0 +1,71 @@
+html{
+    background-color: pink;  
+}
+
+.container{
+    padding: 50px 100px;
+}
+
+.general{
+    color: black;
+    background-image: url(img/img9.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right bottom, left top;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.title{
+    font-family: "Sofia", sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px;
+    text-align: center;
+}
+
+.T1{
+    color: #DEB887;
+}
+
+.T2{
+    color: 	steelblue;
+}
+
+.name{
+    text-align: center;
+    color: #DAA520;
+}
+
+.image{
+    width: 100%;
+}
+
+.image .gambar{
+    /* border: 1px solid #ddd; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.body{
+    text-align: center;
+}
+
+.message{
+    display: grid;
+    grid-template-rows: 12px 15px 35px;
+    justify-items: center;
+}
+
+.from{
+    text-align: right;
+    font-family: "Sofia", sans-serif;
+}
+
+@media (min-device-width: 550px) {
+    .general{
+        flex-direction: row;
+    }
+}
