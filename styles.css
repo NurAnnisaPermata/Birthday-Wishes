@@ -2,8 +2,13 @@ html{
     background-color: pink;  
 }
 
+body{
+    padding: 50px 15px 10px;
+}
 .container{
-    padding: 100px 250px;
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .general{
@@ -13,8 +18,6 @@ html{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: right bottom, left top;
-    display: flex;
-    flex-direction: column;
 }
 
 .title{
@@ -75,11 +78,19 @@ html{
 }
 
 @media (min-device-width: 700px) {
+    body {
+        padding: 40px 40px;
+      }
+    
+    .container {
+        height: 90vh;
+    }
+
     .general{
         flex-direction: row;
     }
     
-    .T1{
+    /* .T1{
         color: #DEB887;
         font-size: 80px;
         text-shadow: 2px 2px;
@@ -89,6 +100,18 @@ html{
         color: 	steelblue;
         font-size: 80px;
         text-shadow: 2px 2px;
+    }
+
+    .image{
+        width: 100%;
+        position: relative;
+    }
+    
+    .image .gambar{
+        /* border: 1px solid #ddd; */
+        /* height: 100%;
+        width: 100%;
+        object-fit: cover;
     }
 
     .name{
@@ -106,5 +129,5 @@ html{
     .from{
         font-size: 25px;
 
-    }
+    } */ 
 }
