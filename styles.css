@@ -79,7 +79,7 @@ html{
         flex-direction: row;
     }
     
-    .T1{
+    /* .T1{
         color: #DEB887;
         font-size: 80px;
         text-shadow: 2px 2px;
@@ -98,7 +98,7 @@ html{
     
     .image .gambar{
         /* border: 1px solid #ddd; */
-        height: 100%;
+        /* height: 100%;
         width: 100%;
         object-fit: cover;
     }
@@ -118,5 +118,5 @@ html{
     .from{
         font-size: 25px;
 
-    }
+    } */ 
 }
