@@ -95,6 +95,18 @@ html{
         text-shadow: 2px 2px;
     }
 
+    .image{
+        width: 100%;
+        position: relative;
+    }
+    
+    .image .gambar{
+        /* border: 1px solid #ddd; */
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
     .name{
         font-size: 35px;
     }
