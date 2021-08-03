@@ -3,7 +3,7 @@ html{
 }
 
 .container{
-    padding: 0px 50px;
+    padding: 100px 250px;
 }
 
 .general{
@@ -79,7 +79,7 @@ html{
         flex-direction: row;
     }
     
-    /* .T1{
+    .T1{
         color: #DEB887;
         font-size: 80px;
         text-shadow: 2px 2px;
@@ -89,18 +89,6 @@ html{
         color: 	steelblue;
         font-size: 80px;
         text-shadow: 2px 2px;
-    }
-
-    .image{
-        width: 100%;
-        position: relative;
-    }
-    
-    .image .gambar{
-        /* border: 1px solid #ddd; */
-        /* height: 100%;
-        width: 100%;
-        object-fit: cover;
     }
 
     .name{
@@ -118,5 +106,5 @@ html{
     .from{
         font-size: 25px;
 
-    } */ 
+    }
 }
